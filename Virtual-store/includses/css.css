@@ -244,7 +244,6 @@ body{
     border-radius: 38px;
     border: 5px solid #504f57;
 }
-
 #img_num_6{
     background: url("../images/Rolex_Daytona.jpg");
     width: 370px;
@@ -339,4 +338,67 @@ h4{
     font-family: Abel;
     font-size: 27px;
     font-weight:500;
+}
+
+
+
+
+#footer_con{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: Nunito;
+}
+
+footer{
+    background: #ffffe2;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 22px;
+}
+
+
+#footer_link_con{
+    display: flex;
+    gap: 150px;
+}
+
+.footer_links{
+    display: flex;
+    flex-direction: column;
+    color: #635656;
+}
+
+#bottom_section{
+    display: flex;
+    flex-direction: column;
+}
+
+#icons{
+    display: flex;
+}
+
+.who_we_are, .follow_us{
+    font-size: 20px;
+}
+
+.link{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+.who_we_are, .follow_us{
+    margin-bottom: 16px;
+}
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
