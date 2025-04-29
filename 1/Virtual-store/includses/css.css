@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    gap: 135px;
+    height: 128px;
+    padding-top: 1px;
+    margin-top: auto;
+}
+
+.cont {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#header_{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    display: block;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    float: left;
+}
+
+#logo_name{
+    top: 53px;
+    font-size: 24px;
+    letter-spacing: 6px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 34px;
+    font-family: Nunito;
+}
+
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+nav a{
+    position: relative;
+    color: #281f30;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#706a75;
+    cursor: pointer;
+}
+
+
+
+#home{
+    font-weight: 700;
+}
+
+#our_shop{
+    font-weight: 700;
+}
