@@ -348,6 +348,7 @@ h4{
     flex-direction: column;
     gap: 24px;
     font-family: Nunito;
+    color: #000000;
 }
 
 footer{
@@ -356,7 +357,7 @@ footer{
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 22px;
+    padding: 32px;
 }
 
 
@@ -368,7 +369,6 @@ footer{
 .footer_links{
     display: flex;
     flex-direction: column;
-    color: #635656;
 }
 
 #bottom_section{
@@ -380,25 +380,20 @@ footer{
     display: flex;
 }
 
-.who_we_are, .follow_us{
+.©_2024_TicTime .who_we_are, .follow_us{
     font-size: 20px;
 }
 
 .link{
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: #333;
 }
 
 .who_we_are, .follow_us{
-    margin-bottom: 16px;
+    margin-bottom: 26px;
+    color: #000;
 }
 
 
 
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
