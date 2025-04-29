@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+header{
+    display: flex;
+    gap: 135px;
+    height: 128px;
+    padding-top: 1px;
+    margin-top: auto;
+}
+
+.cont {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+#header_{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo {
+    display: block;
+    background: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    float: left;
+}
+
+#logo_name{
+    top: 53px;
+    font-size: 24px;
+    letter-spacing: 6px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 34px;
+    font-family: Nunito;
+}
+
+
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+}
+
+nav a{
+    position: relative;
+    color: #281f30;
+    font-family: Nunito;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:#706a75;
+    cursor: pointer;
+}
+
+body{
+    position: relative;
+    padding-bottom: 360px;
+}
+
+#nav_section{
+    padding-right: 12px;
+    font-family: Nunito;
+}
+
+
+#home{
+    font-weight: 700;
+}
+
+#our_shop{
+    font-weight: 700;
+}
+
+#back_con{
+    width: 100%;
+    height: auto;
+}
+
+#enjoy{
+    position: absolute;
+    color: #C9A648;
+    font-size: 96px;
+    font-weight: bolder;
+    font-family: Nunito;
+    margin-left: 32px;
+    margin-top: 32px;
+}
+
+#back_img{
+    background: url("../images/MAIN_IMAGE.jpg");
+    max-width: 100%;
+    height: 850px;
+    padding: 32px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  
+.enjoy-paragraph {
+    line-height: 1.8;
+  }
+
+
+  .enjoy-title {
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+
+#back_con p{
+    color: #C9A648;
+    width: 610px;
+    font-size: 40px;
+    line-height: normal;
+    font-weight: 600;
+    font-style: normal;
+    font-family: Nunito;
+    margin-left: 32px;
+    margin-top: 200px;
+}
+
+
+
+#About_sec{
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 32px;
+    max-width: 100%;
+    gap:32px;
+}
+
+
+#About{
+    margin-top: 15px;
+    color: #0b0a0c;
+    font-family: Nunito;
+    font-size: 40px;
+}
+
+
+
+#About_sec p{
+    color: #000;
+    font-family: Rubik;
+    text-align: justify;
+    gap: 24px;
+    font-size: 20px;
+    width: auto;
+    font-weight: 400;
+    display: flex;
+    font-style: normal;
+}
+
+
+#Top_Picks{
+    color: #0b0a0c;
+    font-family: Rubik;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    padding-bottom: 27px;
+}
+
+
+#img_num_1{
+    background: url("../images/Curren_Luxury_Watch.jpg");
+    width: 370px;
+    height: 276px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 38px;
+    border: 5px solid #504f57;
+}
+
+#img_num_2{
+    background: url("../images/FOSSIL.jpg");
+    width: 370px;
+    height: 276px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 38px;
+    border: 5px solid #504f57;
+}
+
+
+#img_num_3{
+    background: url("../images/QUARTZ_SILVER.jpg");
+    width: 370px;
+    height: 276px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 38px;
+    border: 5px solid #504f57;
+}
+
+#img_num_4{
+    background: url("../images/OMEGA.jpg");
+    width: 370px;
+    height: 276px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 38px;
+    border: 5px solid #504f57;
+}
+
+
+#img_num_5{
+    background: url("../images/QUARTZ.jpg");
+    width: 370px;
+    height: 276px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 38px;
+    border: 5px solid #504f57;
+}
+
+#img_num_6{
+    background: url("../images/Rolex_Daytona.jpg");
+    width: 370px;
+    height: 276px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    border-radius: 38px;
+    border: 5px solid #504f57;
+}
+
+
+.price_and_cart{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 36px;
+    left: 32px;
+    right: 51px;
+}
+.price{
+    color: #fdd464;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.cart_icon_button{
+    width: 63px;
+    height: 63px;
+    display: flex;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #2113e9;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+
+
+.watch_description{
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    position: absolute;
+    top: 297px;
+    gap: 7px;
+}
+
+.description{
+    color: #bdbdbd;
+    font-family: Abel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 315px;
+    height: 96px;
+}
+
+
+.watchs-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+
+.watch{
+    width: 376px;
+    height: 496px;
+    border-radius: 38px;
+    background: #504f57;
+    display: flex;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+
+
+h4{
+    color: #ffffff;
+    font-family: Abel;
+    font-size: 27px;
+    font-weight:500;
+}
