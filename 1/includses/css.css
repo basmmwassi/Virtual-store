@@ -1,0 +1,120 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+   /* overflow-x: hidden;*/
+    background-color: #fff;
+}
+
+body {
+    max-width: 1200px;
+    max-height: 3000px;
+    margin: 0 auto;
+}
+
+.smoothie {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap; 
+}
+
+.logo {
+    margin-left: 23px;
+    margin-top: 20px;
+    width: 50px; 
+}
+
+.smoothie span {
+    margin-right: 59px;
+    font-size: 15px;
+    margin-top: 32px;
+}
+
+.smoothies {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.Home {
+    color: #612999;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bolder;
+    margin-left: 35px;
+}
+
+.Our_smoothies,
+.About,
+.contact {
+    color: #612999;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; 
+  }
+
+ 
+.text-enjoy{
+    position: absolute;
+    color: #612999;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 19px;
+    margin-left: 27px;
+    top: 1%;
+}
+
+
+.Lorem{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-left: 32px;
+    top: 17%;
+    line-height: 1.5;
+}
+
+
+.adipiscing{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-left: 32px;
+    top: 21%;
+    line-height: 1.5;
+}
+
+
+.mauris{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 10px;
+    margin-left: 32px;
+    top: 25%;
+    line-height: 1.5;
+}
+
+
+.About_{
+    color: #612999;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
+    font-size: 27PX;
+    margin-left: 28PX;
+}
