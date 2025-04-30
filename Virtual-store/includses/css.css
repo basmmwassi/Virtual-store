@@ -397,3 +397,38 @@ footer{
 
 
 
+#img_container{
+    max-width: 100%;
+    height: 300px; 
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+}
+
+#img1{
+    background: url("../images/MAMBA.jpg");
+    width: 300px;
+    height: 300px;
+    border: 4px solid #424144;
+    background-size: cover;
+}
+
+
+
+#img2{
+    background: url("../images/ROLEX_SILVER_GOLD.jpg");
+    width: 300px;
+    height: 300px;
+    border: 4px solid #424144;
+    background-size: cover;
+}
+
+#img3{
+    background: url("../images/Vintage_Pocket_Watch.jpg");
+    width: 300px;
+    height: 300px;
+    border: 4px solid #424144;
+    background-size:cover;
+}
+
+
